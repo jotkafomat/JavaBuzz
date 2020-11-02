@@ -15,9 +15,9 @@ describe('JavaBuzz', function() {
 
   });
 
-  describe('', function() {
+  describe('knows when number is NOT', function() {
 
-    it('knows when number is NOT', function() {
+    it('devisible by 3', function() {
 
       expect(javabuzz.isDivisibleByThree(1)).toBe(false);
     });
